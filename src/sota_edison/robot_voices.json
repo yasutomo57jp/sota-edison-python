@@ -1,0 +1,6 @@
+{
+  "_comment": "ロボットIPごとの既定の声。engine: voicevox/gtts。speaker: VOICEVOX話者ID(demo/demo_audio.py - speakers で一覧)。明示指定(say の engine/speaker 引数)が優先。下記IPは説明用の例(192.0.2.x)。実機のIP対応は別ファイル(例 robot_voices_kawalab.json)を作り --robot_voices=PATH で指定する。",
+  "default": { "engine": "voicevox", "speaker": 3 },
+  "192.0.2.10": { "engine": "voicevox", "speaker": 3 },
+  "192.0.2.11": { "engine": "voicevox", "speaker": 2 }
+}
